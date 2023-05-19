@@ -97,51 +97,49 @@ p{
 
 /* EXPERIENCE SECTION */
 
-.experience {
-    margin-top: 100px;
-    margin-bottom: 80px;
-    margin-left: 150px;
-  }
-  
-  .section-header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 40px;
-  }
-  
-  .section-header-text {
+.experience{
+  width: fit-content;
+  margin: 0px auto ;
+  display: grid;
+  grid-template-columns: 500px 500px;
+}
 
-    font-size: 80px;
-    color:white;
-    padding: 10px 20px;
-    
-  }
-  
-  .experience-item {
-    margin-bottom: 80px;
-  }
-  
-  .experience-item-title {
-    font-size: 44px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 20px;
-    margin-left: 700px;
-  }
-  
-  .experience-item-description {
-    font-size: 26px;
-    color: white;
-    margin-left:700px ;
-  }
+.experience .heading-1{
+  font-size: 44px;
+  font-weight: 500;
+}
 
-  .experience-item-position {
-    font-size: 34px;
-    margin-left: 700px ;
-    margin-bottom: 20px;
-  }
-  
+.experience .heading-2{
+  font-size: 34px;
+  font-weight: 500;
+}
+.experience .heading-3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.experience .paragraph{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+.section-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section-header-text {
+  font-size: 80px;
+  color: white;
+  padding: 10px 20px;
+}
+
+.experience-item {
+  margin-bottom: 80px;
+}
 
 
   /* PROJECT SECTION */
