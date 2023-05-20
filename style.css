@@ -105,7 +105,7 @@ p{
 }
 
 .experience .heading-1{
-  font-size: 44px;
+  font-size: 54px;
   font-weight: 500;
 }
 
@@ -114,15 +114,14 @@ p{
   font-weight: 500;
 }
 .experience .heading-3{
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
 }
 
 .experience .paragraph{
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
-
 
 
 .section-header {
@@ -145,32 +144,32 @@ p{
   /* PROJECT SECTION */
 
   .projects {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 150px;
+    width: fit-content;
+    margin: 0px auto ;
+    display: grid;
+    grid-template-columns: 500px 500px;
   }
   
-  .project-item {
-    margin-bottom: 100px;
-    margin-left: 700px;
+  .projects .heading-1 {
+    font-weight: 500;
+    font-size: 54px;
   }
   
-  .project-item-title {
-    font-size: 44px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 20px;
-  }
-  
-  .project-item-language {
+  .projects .heading-2 {
     font-size: 34px;
+    font-weight: 500;
     color: white;
     margin-bottom: 20px;
   }
   
-  .project-item-description {
-    font-size: 26px;
-    color: white;
+  .projects .heading-3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .projects .paragraph {
+    font-size: 20px;
+    font-weight: 400;
   }
   
 
@@ -178,28 +177,32 @@ p{
 
 
   .certifications {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 150px;
+    width: fit-content;
+    margin: 0px auto ;
+    display: grid;
+    grid-template-columns: 500px 500px;
   }
   
-  .certification-item {
-    margin-bottom: 100px;
+  .certifications .heading-1 {
+    font-size: 54px;
+    font-weight: 500;
+    
   }
   
-  .certification-item-title {
+  .certification .heading-2{
     font-size: 44px;
-    font-weight: bold;
+    font-weight: 500;
     color: white;
-    margin-bottom: 10px;
-    margin-left: 700px;
+    
+    
   }
   
-  .certification-item-link a {
+  .certification .heading-3 {
     font-size: 34px;
+    font-weight: 500;
     color: white;
     text-decoration: underline;
-    margin-left: 700px;
+    
   }
   
 
@@ -207,9 +210,10 @@ p{
 
 
   .blogs {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 150px;
+    width: fit-content;
+    margin: 0px auto ;
+    display: grid;
+    grid-template-columns: 500px 500px;
   }
   
   .blog-item {
@@ -217,15 +221,13 @@ p{
     margin-left: 700px;
   }
   
-  .blog-item-title {
-    font-size: 44px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 20px;
+  .blogs .heading-1 {
+    font-size: 54px;
+    font-weight: 500;
   }
   
-  .blog-item-description {
-    font-size: 28px;
+  .blogs .heading-2 {
+    font-size: 34px;
     color: white;
     margin-bottom: 40px;
   }
