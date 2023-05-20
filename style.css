@@ -216,10 +216,10 @@ p{
     grid-template-columns: 500px 500px;
   }
   
-  .blog-item {
+  /* .blog-item {
     margin-bottom: 80px;
     margin-left: 700px;
-  }
+  } */
   
   .blogs .heading-1 {
     font-size: 54px;
