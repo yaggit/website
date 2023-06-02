@@ -852,6 +852,13 @@ video {
 .press-3:active {
   transform: scale(97%);
 }
+.press-3:hover{
+  color: #969292;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+
+      
+}
 
 .app {
   /* DISABLE SELECTION */
